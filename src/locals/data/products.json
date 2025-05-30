@@ -1,0 +1,339 @@
+[
+  {
+    "id": "1",
+    "name": "Organic Honey",
+    "description": "Pure and raw organic honey from local farms.",
+    "category": "Food",
+    "inStock": true,
+    "price": 120,
+    "oldPrice": 150,
+    "images": [
+      "https://images.unsplash.com/photo-1656269265590-721ed3544b8e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "/images/honey2.jpg",
+      "/images/honey3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Ahmed Ali",
+        "comment": "Excellent quality honey, very tasty!"
+      },
+      {
+        "user": "Sara Youssef",
+        "comment": "Loved it, and delivery was fast."
+      }
+    ],
+    "soldCount": 250,
+    "howToUse": "Use a spoon daily in the morning or mix with warm water.",
+    "unit": "pcs",
+    "uploadedBy": "Mohamed Fathy",
+    "rate": 4.7
+  },
+  {
+    "id": "2",
+    "name": "Green Tea",
+    "description": "Natural green tea leaves for a healthy lifestyle.",
+    "category": "Beverages",
+    "inStock": true,
+    "price": 45,
+    "oldPrice": 60,
+    "images": [
+      "https://images.unsplash.com/photo-1711602926021-db8bce24843a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "/images/tea2.jpg",
+      "/images/tea3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Mona Hassan",
+        "comment": "Best tea I’ve had!"
+      }
+    ],
+    "soldCount": 180,
+    "howToUse": "Boil water, add a spoon of tea, steep for 5 mins.",
+    "unit": "box",
+    "uploadedBy": "Ayman Helmy",
+    "rate": 4.2
+  },
+  {
+    "id": "3",
+    "name": "Almond Oil",
+    "description": "100% pure almond oil for skin and hair care.",
+    "category": "Beauty",
+    "inStock": false,
+    "price": 75,
+    "oldPrice": 90,
+    "images": [
+      "https://images.unsplash.com/photo-1667242003572-96caaf8ac5c4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "/images/almond2.jpg",
+      "/images/almond3.jpg"
+    ],
+    "reviews": [],
+    "soldCount": 95,
+    "unit": "pcs",
+    "uploadedBy": "Dina Samir",
+    "rate": 3.8
+  },
+  {
+    "id": "4",
+    "name": "Brown Rice",
+    "description": "High-fiber, whole grain brown rice.",
+    "category": "Food",
+    "inStock": true,
+    "price": 60,
+    "oldPrice": 70,
+    "images": [
+      "https://images.unsplash.com/photo-1638405803199-5f1ea5253628?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "/images/rice2.jpg",
+      "/images/rice3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Karim Nabil",
+        "comment": "Tastes great and healthy too!"
+      }
+    ],
+    "soldCount": 110,
+    "unit": "kgs",
+    "uploadedBy": "Mostafa Farid",
+    "rate": 4.0
+  },
+  {
+    "id": "5",
+    "name": "Face Cream",
+    "description": "Daily moisturizing face cream for all skin types.",
+    "category": "Beauty",
+    "inStock": true,
+    "price": 90,
+    "oldPrice": 120,
+    "images": [
+      "https://images.unsplash.com/photo-1601049315503-07926a49f521?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "/images/cream2.jpg",
+      "/images/cream3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Hagar Adel",
+        "comment": "Left my skin soft and glowing."
+      }
+    ],
+    "soldCount": 75,
+    "unit": "pcs",
+    "uploadedBy": "Yasmin Ghoneim",
+    "rate": 4.3
+  },
+  {
+    "id": "6",
+    "name": "Protein Bars",
+    "description": "High-protein bars for workout recovery.",
+    "category": "Snacks",
+    "inStock": true,
+    "price": 25,
+    "oldPrice": 35,
+    "images": [
+      "/images/protein1.jpg",
+      "/images/protein2.jpg",
+      "/images/protein3.jpg"
+    ],
+    "reviews": [],
+    "soldCount": 210,
+    "unit": "pack",
+    "uploadedBy": "Omar Reda",
+    "rate": 4.1
+  },
+  {
+    "id": "7",
+    "name": "Apple Cider Vinegar",
+    "description": "Organic apple cider vinegar with the mother.",
+    "category": "Health",
+    "inStock": false,
+    "price": 65,
+    "oldPrice": 80,
+    "images": [
+      "/images/vinegar1.jpg",
+      "/images/vinegar2.jpg",
+      "/images/vinegar3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Mahmoud Zaki",
+        "comment": "Great for detox and digestion."
+      }
+    ],
+    "soldCount": 130,
+    "howToUse": "Mix 1 tbsp with warm water before meals.",
+    "unit": "pcs",
+    "uploadedBy": "Aya Kamal",
+    "rate": 3.9
+  },
+  {
+    "id": "8",
+    "name": "Peanut Butter",
+    "description": "Crunchy peanut butter with no added sugar.",
+    "category": "Food",
+    "inStock": true,
+    "price": 55,
+    "oldPrice": 70,
+    "images": [
+      "/images/pb1.jpg",
+      "/images/pb2.jpg",
+      "/images/pb3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Rana Elsharkawy",
+        "comment": "My kids love it!"
+      }
+    ],
+    "soldCount": 140,
+    "unit": "pcs",
+    "uploadedBy": "Salma Fathy",
+    "rate": 4.4
+  },
+  {
+    "id": "9",
+    "name": "Yoga Mat",
+    "description": "Eco-friendly non-slip yoga mat.",
+    "category": "Fitness",
+    "inStock": true,
+    "price": 200,
+    "oldPrice": 250,
+    "images": [
+      "/images/yoga1.jpg",
+      "/images/yoga2.jpg",
+      "/images/yoga3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Laila Mohsen",
+        "comment": "Comfortable and doesn’t slip."
+      }
+    ],
+    "soldCount": 60,
+    "unit": "pcs",
+    "uploadedBy": "Nourhan Elsayed",
+    "rate": 4.6
+  },
+  {
+    "id": "10",
+    "name": "Olive Oil",
+    "description": "Cold-pressed extra virgin olive oil.",
+    "category": "Food",
+    "inStock": true,
+    "price": 85,
+    "oldPrice": 100,
+    "images": [
+      "/images/oil1.jpg",
+      "/images/oil2.jpg",
+      "/images/oil3.jpg"
+    ],
+    "reviews": [],
+    "soldCount": 190,
+    "unit": "kgs",
+    "uploadedBy": "Tarek Elsaid",
+    "rate": 4.1
+  },
+  {
+    "id": "11",
+    "name": "Multivitamin Gummies",
+    "description": "Daily multivitamins for adults in gummy form.",
+    "category": "Health",
+    "inStock": true,
+    "price": 130,
+    "oldPrice": 160,
+    "images": [
+      "/images/vitamin1.jpg",
+      "/images/vitamin2.jpg",
+      "/images/vitamin3.jpg"
+    ],
+    "reviews": [],
+    "soldCount": 100,
+    "unit": "box",
+    "uploadedBy": "Hassan Eid",
+    "rate": 3.7
+  },
+  {
+    "id": "12",
+    "name": "Detox Juice Pack",
+    "description": "Mixed detox juice pack with various flavors.",
+    "category": "Beverages",
+    "inStock": false,
+    "price": 150,
+    "oldPrice": 180,
+    "images": [
+      "/images/juice1.jpg",
+      "/images/juice2.jpg",
+      "/images/juice3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Lina Sami",
+        "comment": "Loved the lemon-mint flavor!"
+      }
+    ],
+    "soldCount": 88,
+    "unit": "pack",
+    "uploadedBy": "Mariam Yasser",
+    "rate": 4.0
+  },
+  {
+    "id": "13",
+    "name": "Coconut Water",
+    "description": "Fresh and hydrating coconut water.",
+    "category": "Beverages",
+    "inStock": true,
+    "price": 35,
+    "oldPrice": 45,
+    "images": [
+      "/images/coconut1.jpg",
+      "/images/coconut2.jpg",
+      "/images/coconut3.jpg"
+    ],
+    "reviews": [],
+    "soldCount": 175,
+    "unit": "pcs",
+    "uploadedBy": "Hossam Khaled",
+    "rate": 4.3
+  },
+  {
+    "id": "14",
+    "name": "Shampoo Bar",
+    "description": "Eco-friendly shampoo in bar form.",
+    "category": "Beauty",
+    "inStock": true,
+    "price": 40,
+    "oldPrice": 55,
+    "images": [
+      "/images/shampoo1.jpg",
+      "/images/shampoo2.jpg",
+      "/images/shampoo3.jpg"
+    ],
+    "reviews": [],
+    "soldCount": 92,
+    "unit": "pcs",
+    "uploadedBy": "Nada Saleh",
+    "rate": 3.9
+  },
+  {
+    "id": "15",
+    "name": "Energy Drink",
+    "description": "Natural energy drink with vitamins.",
+    "category": "Beverages",
+    "inStock": true,
+    "price": 20,
+    "oldPrice": 30,
+    "images": [
+      "/images/energy1.jpg",
+      "/images/energy2.jpg",
+      "/images/energy3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Amr Sabry",
+        "comment": "Gives a real energy boost!"
+      }
+    ],
+    "soldCount": 300,
+    "unit": "box",
+    "uploadedBy": "Youssef Gamal",
+    "rate": 4.8
+  }
+]

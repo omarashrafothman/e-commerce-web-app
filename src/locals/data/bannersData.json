@@ -1,0 +1,17 @@
+[
+ {
+    "id":1,
+    "bannerTitle": "Space for heading",
+    "bannerImage":"",
+    "bannerDescription": "Banner subfocus",
+    "link": "Read Recipes"
+ },
+ {
+    "id":2,
+    "bannerTitle": "Space for heading",
+    "bannerImage":"",
+    "bannerDescription": "Banner subfocus",
+    "link": "Read Recipes"
+ }
+
+]

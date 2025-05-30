@@ -1,0 +1,159 @@
+[
+{
+"tittle":"Best selling products",
+"products":[
+
+    {
+        "id": "1",
+        "name": "Organic Honey",
+        "description": "Pure and raw organic honey from local farms.",
+        "category": "Food",
+        "inStock": true,
+        "price": 120,
+        "oldPrice": 150,
+        "images": [
+          "https://images.unsplash.com/photo-1656269265590-721ed3544b8e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "/images/honey2.jpg",
+          "/images/honey3.jpg"
+        ],
+        "reviews": [
+          {
+            "user": "Ahmed Ali",
+            "comment": "Excellent quality honey, very tasty!"
+          },
+          {
+            "user": "Sara Youssef",
+            "comment": "Loved it, and delivery was fast."
+          }
+        ],
+        "soldCount": 250,
+        "howToUse": "Use a spoon daily in the morning or mix with warm water.",
+        "unit": "pcs",
+        "uploadedBy": "Mohamed Fathy",
+        "rate": 3
+      },
+      {
+        "id": "2",
+        "name": "Green Tea",
+        "description": "Natural green tea leaves for a healthy lifestyle.",
+        "category": "Beverages",
+        "inStock": true,
+        "price": 45,
+        "oldPrice": 60,
+        "images": [
+          "https://images.unsplash.com/photo-1711602926021-db8bce24843a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "/images/tea2.jpg",
+          "/images/tea3.jpg"
+        ],
+        "reviews": [
+          {
+            "user": "Mona Hassan",
+            "comment": "Best tea I’ve had!"
+          }
+        ],
+        "soldCount": 180,
+        "howToUse": "Boil water, add a spoon of tea, steep for 5 mins.",
+        "unit": "box",
+        "uploadedBy": "Ayman Helmy",
+        "rate": 4
+      },
+      {
+        "id": "3",
+        "name": "Almond Oil",
+        "description": "100% pure almond oil for skin and hair care.",
+        "category": "Beauty",
+        "inStock": false,
+        "price": 75,
+        "oldPrice": 90,
+        "images": [
+          "https://images.unsplash.com/photo-1667242003572-96caaf8ac5c4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "/images/almond2.jpg",
+          "/images/almond3.jpg"
+        ],
+        "reviews": [],
+        "soldCount": 95,
+        "unit": "pcs",
+        "uploadedBy": "Dina Samir",
+        "rate": 4
+      }
+      ]
+
+},
+{
+"tittle":"Best from Farmers",
+"products":[
+
+    {
+        "id": "4",
+        "name": "Brown Rice",
+        "description": "High-fiber, whole grain brown rice.",
+        "category": "Food",
+        "inStock": true,
+        "price": 60,
+        "oldPrice": 70,
+        "images": [
+          "https://images.unsplash.com/photo-1638405803199-5f1ea5253628?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "/images/rice2.jpg",
+          "/images/rice3.jpg"
+        ],
+        "reviews": [
+          {
+            "user": "Karim Nabil",
+            "comment": "Tastes great and healthy too!"
+          }
+        ],
+        "soldCount": 110,
+        "unit": "kgs",
+        "uploadedBy": "Mostafa Farid",
+        "rate": 5
+
+      },
+      {
+        "id": "5",
+        "name": "Face Cream",
+        "description": "Daily moisturizing face cream for all skin types.",
+        "category": "Beauty",
+        "inStock": true,
+        "price": 90,
+        "oldPrice": 120,
+        "images": [
+          "https://images.unsplash.com/photo-1601049315503-07926a49f521?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "/images/cream2.jpg",
+          "/images/cream3.jpg"
+        ],
+        "reviews": [
+          {
+            "user": "Hagar Adel",
+            "comment": "Left my skin soft and glowing."
+          }
+        ],
+        "soldCount": 75,
+        "unit": "pcs",
+        "uploadedBy": "Yasmin Ghoneim",
+        "rate": 4
+      },
+      {
+        "id": "6",
+        "name": "Protein Bars",
+        "description": "High-protein bars for workout recovery.",
+        "category": "Snacks",
+        "inStock": true,
+        "price": 25,
+        "oldPrice": 35,
+        "images": [
+          "https://images.unsplash.com/photo-1608502669656-a24fa8036853?q=80&w=2021&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "/images/protein2.jpg",
+          "/images/protein3.jpg"
+        ],
+        "reviews": [],
+        "soldCount": 210,
+        "unit": "pack",
+        "uploadedBy": "Omar Reda",
+        "rate": 2
+      }
+    ]
+
+}
+
+
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "listTitle": "Category menu",
+        "listItems": [
+          "Bakery",
+          "Fruit and vegetables",
+          "Meat and fish",
+          "Drinks",
+          "Kitchen"
+        ],
+        "btn": "More categories"
+    },
+    {
+        "id":2,
+        "listTitle": "Best selling products",
+        "listItems": [
+          "Kitchen",
+          "Meat and fish",
+          "Special nutrition",
+          "Pharmacy",
+          "Baby"
+        ],
+        "btn": "More products"
+    },
+    {
+        "id":3,
+        "listTitle": "Best from Farmers",
+        "listItems": [
+          "Carrots",
+          "Tomatoes",
+          "Potatoes",
+          "Chicken",
+          "Pork"
+        ],
+        "btn": "More products"
+    }
+
+
+
+]
+  
