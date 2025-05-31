@@ -10,14 +10,14 @@ export default function CartPage() {
             name: 'Carrot, Organic (1kg)',
             price: 4.99,
             quantity: 2,
-            image: '/carrot.jpg',
+            image: 'https://images.unsplash.com/photo-1656269265590-721ed3544b8e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         },
         {
             id: 2,
             name: 'Tomato, Fresh (500g)',
             price: 2.5,
             quantity: 1,
-            image: '/tomato.jpg',
+            image: 'https://images.unsplash.com/photo-1711602926021-db8bce24843a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         },
     ]);
 
@@ -41,26 +41,27 @@ export default function CartPage() {
     };
 
     return (
-        <div className="max-w-5xl mx-auto p-4">
-            <h1 className="text-2xl font-semibold mb-6">Shopping Cart</h1>
+        <div className=" w-[90%] mx-auto  p-2">
+            <h1 className="text-2xl font-semibold my-6">Shopping Cart</h1>
 
             {cartItems.length === 0 ? (
                 <p>Your cart is empty.</p>
             ) : (
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div className="md:col-span-2 space-y-6">
+                <div className="flex justify-between flex-wrap">
+                    <div className="w-full md:w-[69%]">
                         {cartItems.map((item) => (
                             <div
                                 key={item.id}
-                                className="flex items-center gap-4 border-b pb-4"
+                                className="flex items-center gap-4 border-b border-[#D1D1D1]  pb-3 w-full mb-2"
                             >
-                                <Image
-                                    src={item.image}
-                                    alt={item.name}
-                                    width={80}
-                                    height={80}
-                                    className="rounded"
-                                />
+                                <div className='w-[100px] h-[100px]'>
+                                    <Image
+                                        src={item.image}
+                                        alt={item.name}
+                                        width={50}
+                                        height={50}
+                                        className="rounded-[12px] object-cover w-full h-full"
+                                    /></div>
                                 <div className="flex-1">
                                     <h2 className="text-md font-semibold">{item.name}</h2>
                                     <p className="text-sm text-gray-500">
@@ -68,14 +69,14 @@ export default function CartPage() {
                                     </p>
                                     <div className="flex items-center mt-2 gap-2">
                                         <button
-                                            className="px-2 py-1 bg-gray-200 rounded"
+                                            className="px-2 py-1 bg-gray-200 rounded cursor-pointer"
                                             onClick={() => handleQuantityChange(item.id, -1)}
                                         >
                                             -
                                         </button>
                                         <span className="px-2">{item.quantity}</span>
                                         <button
-                                            className="px-2 py-1 bg-gray-200 rounded"
+                                            className="px-2 py-1 bg-gray-200 rounded cursor-pointer"
                                             onClick={() => handleQuantityChange(item.id, 1)}
                                         >
                                             +
@@ -87,7 +88,7 @@ export default function CartPage() {
                                         ${(item.price * item.quantity).toFixed(2)}
                                     </p>
                                     <button
-                                        className="text-xs text-red-500 mt-2"
+                                        className="text-xs text-white font-bold rounded-[12px] py-2 px-4 cursor-pointer  bg-red-500 mt-2"
                                         onClick={() => handleRemove(item.id)}
                                     >
                                         Remove
@@ -97,7 +98,7 @@ export default function CartPage() {
                         ))}
                     </div>
 
-                    <div className="bg-gray-50 p-6 rounded-md shadow-sm">
+                    <div className="bg-gray-50 p-6 rounded-md shadow-sm w-full  md:w-[29%]">
                         <h2 className="text-lg font-semibold mb-4">Order Summary</h2>
                         <div className="flex justify-between text-sm mb-2">
                             <span>Subtotal</span>
@@ -111,15 +112,19 @@ export default function CartPage() {
                             <span>Total</span>
                             <span>${totalPrice.toFixed(2)}</span>
                         </div>
-                        <button className="w-full mt-6 bg-green-600 text-white py-2 rounded hover:bg-green-700 transition">
-                            Checkout
-                        </button>
-                        <Link
-                            href="/"
-                            className="text-center block mt-4 text-sm text-gray-500 hover:text-gray-800"
-                        >
-                            Continue Shopping
-                        </Link>
+                        <div className='flex flex-col gap-2'>
+
+                            <Link href="/store/checkout" className="w-full mt-6 bg-[#6A983C] font-semibold  text-white py-2 text-center rounded-[12px] hover:bg-[#46760A] border border-[#46760A]  transition">
+                                Checkout
+                            </Link>
+                            <Link
+                                href="/store"
+                                className="text-center font-semibold  block mt-4 text-sm text-gray-500 hover:text-gray-800"
+                            >
+                                Continue Shopping
+                            </Link>
+
+                        </div>
                     </div>
                 </div>
             )}

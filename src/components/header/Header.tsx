@@ -2,9 +2,10 @@
 
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 import {
-    faUser,
-    faShoppingCart,
+
+
     faSearch,
     faBars,
     faTimes,
@@ -22,7 +23,7 @@ export default function Header() {
             {/* Top Bar */}
             <div className="flex justify-between text-sm text-gray-600 px-4 py-2 bg-gray-50">
                 <div>
-                    <a href="#" className="text-[#6a983c] font-medium">Chat with us</a> |<a href="tel:+201552242010"> +201552242010</a> |<a href="omarothman20002@gmail.com" target="_blank"> omarothman20002@gmail.com</a>
+                    <a href="#" className="text-[#6a983c] font-medium">Chat with us</a> |<a href="tel:+201552242010"> +201552242010</a> |<a href="mailto:omarothman20002@gmail.com" target="_blank"> omarothman20002@gmail.com</a>
                 </div>
                 <div className="hidden md:flex space-x-4">
                     <Link href="/store/blog">Blog</Link>
@@ -33,7 +34,7 @@ export default function Header() {
 
             {/* Main Header */}
             <div className="flex items-center justify-between px-4 py-4">
-                <h1 className="text-2xl font-bold text-gray-800">Freshnesecom</h1>
+                <Link href={"/store"} className="text-2xl font-bold text-gray-800">Freshnesecom</Link>
 
                 {/* Search */}
                 <div className="hidden md:flex items-center border border-gray-200  rounded-xl w-1/2 bg-gray-100">
@@ -53,12 +54,12 @@ export default function Header() {
                 </div>
 
                 {/* Icons */}
-                <div className="flex items-center gap-4">
-                    <FontAwesomeIcon icon={faUser} className="text-xl text-gray-700 cursor-pointer" />
-                    <div className="relative">
-                        <FontAwesomeIcon icon={faShoppingCart} className="text-xl text-gray-700 cursor-pointer" />
+                <div className="flex items-center gap-6">
+                    <Link href={"/store"}> <Image src={"/assets/icons/ic-actions-user.svg"} width={20} height={20} alt="cart-icon" className="" /></Link>
+                    <Link href={"/store/cart"} className="relative">
+                        <Image src={"/assets/icons/Layer.svg"} width={20} height={20} alt="cart-icon" className="" />
                         <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full px-1">4</span>
-                    </div>
+                    </Link>
 
                     {/* Mobile Menu Button */}
                     <button

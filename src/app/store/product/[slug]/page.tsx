@@ -26,7 +26,7 @@ export default function ProductPage() {
         <div className="p-4 max-w-7xl mx-auto grid md:grid-cols-2 gap-8 mt-5">
             {/* Left image placeholder */}
             <div className=" aspect-square rounded-lg flex items-start justify-start relative">
-                <Image src={product.images[0]} className='object-cover' alt={product.name} fill />
+                <Image src={product.images[0]} className='object-cover rounded-[12px]' alt={product.name} fill />
                 <div className="absolute top-3 left-3 space-y-2">
                     <span className="bg-green-100 text-green-700 text-xs font-semibold px-2 py-1 rounded">~ 36 %</span>
                     <span className="bg-green-100 text-green-700 text-xs font-semibold px-2 py-1 rounded">Free shipping</span>
