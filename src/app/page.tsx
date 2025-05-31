@@ -74,7 +74,7 @@ export default function Home() {
       <section className="py-20 text-center">
         <h2 className="text-3xl font-semibold text-[#6A983C] mb-6">Want to Try the Demo?</h2>
         <a
-          href="https://example.com"
+          href="/store"
           className="bg-[#6A983C] hover:bg-green-700 text-white px-8 py-3 rounded text-lg transition"
         >
           Try Demo
